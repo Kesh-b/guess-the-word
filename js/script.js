@@ -109,6 +109,7 @@ const updateWordInProgress = function (usedLetters) {
     didYouWin(); 
 };
 
+
 const countGuessesRemaining = function(letterGuessed) {
     const upperWord = word.toUpperCase();
     if (!upperWord.includes(letterGuessed)) {
